@@ -6,6 +6,9 @@ import markdown
 import os
 
 
+# Version
+__version__ = '1.0.0'
+
 # Read a md file
 def gen_site(file):
 
@@ -55,4 +58,5 @@ def gen_site(file):
 filename = 'content/portfolio.md'
 
 # Main Program
+print(f"sitegen v{__version__}\n")
 gen_site(filename)
